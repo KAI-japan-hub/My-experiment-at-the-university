@@ -2,34 +2,32 @@
 
 # Project Name
 
-📸 Travel Fun Enhancer with Photo Spot Quiz in Kyoto
-An experimental system designed to enhance group travel experiences through interactive photo spot quizzes and communication-based tasks.
+# 📸 Travel Fun Enhancer with Photo Spot Quiz in Kyoto
 
-## Features
+An experimental system designed to enhance group travel experiences through interactive photo spot quizzes and communication-based tasks, developed as part of a university research project in Kyoto.
 
--Gamification of tourist spot exploration through photo spot quizzes
--Promoting activated communication 
--Design requiring cooperation by displaying individualized hints to members
--Real-time recording of heart rate to visualize calmness and synchronicity
--Photo correctness judgment utilizing machine learning (Create ML)
--Support for decision-making through destination suggestions via a roulette function
-(Japanese)
-- 写真スポットクイズによる観光地探索のゲーミフィケーション
-- メンバー個別にヒントを表示し、協力を必要とする設計
-- 心拍数をリアルタイムで記録し、落ち着きや同期を可視化
-- 機械学習（Create ML）を活用した写真の正答判定
-- ルーレット機能による目的地の提案で意思決定を支援
+##Features
 
-## Technologies Used
+- Gamifies tourist spot exploration through photo quizzes
+- Encourages active communication among group members
+- Requires cooperation through individualized hint displays
+- Records real-time heart rate to visualize relaxation and synchronization
+- Utilizes machine learning (Create ML) to judge photo correctness
+- Supports decision-making via roulette-based destination suggestions
+
+##Technologies Used
 
 - Swift (iOS), Xcode
 - Create ML (image recognition)
 - Apple Watch + HealthKit
-- Python + Django
+- Python + Django (backend for data management)
 
-## Installation
+##Installation / Run
 
+> This project includes a Swift-based iOS app and a Python Django backend. Setup instructions for both components are as follows:
+
+### iOS App (Frontend)
+
+1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/project-name.git
-cd project-name
-npm install
+git clone https://github.com/yourusername/your-project.git
